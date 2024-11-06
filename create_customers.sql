@@ -2,9 +2,9 @@ create schema netology;
 
 create table customers
 (
-    id serial primary key,
-    name text,
-    surname text,
+    id int auto_increment primary key,
+    name varchar(255),
+    surname varchar(255),
     age  int,
     phone_number int
 );
